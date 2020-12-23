@@ -9,7 +9,7 @@ module.exports = {
       return /\.css$/.test(filePath);
     },
     historyApiFallback: true,
-    port: 3000
+    port: 3000,
   },
   module: {
     rules: [
